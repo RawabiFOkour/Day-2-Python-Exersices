@@ -12,7 +12,7 @@ number=int(input('Enter number plz ? '))
 
 #number 10 --- show the same result 
 
-for row in range (0,number):
+for row in range (1,number):
     
     for space in range (1,number-row):
         print(" ", end=" ")
